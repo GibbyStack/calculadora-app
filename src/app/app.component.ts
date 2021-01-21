@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'calculadora-two-app';
+  titulo = 'Aplicación de Calculadora';
+  resultado: number = 0;
+
+  sumaRealizada(resultado: number) {
+    this.resultado = resultado;
+  }
 }
